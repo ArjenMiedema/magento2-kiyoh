@@ -37,6 +37,11 @@
         "youwe/testing-suite": "dev-master",
         "youwe/coding-standard-magento2": "^1.7.0"
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Elgentos\\Kiyoh\\Test\\": "tests/"
+        }
+    },
     "config": {
         "sort-packages": true,
         "allow-plugins": {
